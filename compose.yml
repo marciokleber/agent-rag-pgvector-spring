@@ -1,0 +1,6 @@
+include:
+  - .docker/postgres/compose.yml
+
+networks:
+  agent-rag-pgvector-spring-network:
+    name: agent-rag-pgvector-spring-network
